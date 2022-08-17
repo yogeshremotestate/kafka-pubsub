@@ -1,0 +1,18 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:con": "node ./consumer/index.js",
+    "start:con2": "node ./consumer2/index.js",
+    "start:pro": "node ./producer/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yogesh",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.1.0",
+    "readline": "^1.3.0"
+  }
+}
